@@ -8,7 +8,7 @@ namespace Intro.Entities;
 
 //Entities --> veri tutucu sınıflar , Busines --> operasyon tutucu
 
-public class Course
+public class Course : BaseCustomer
 {
     public int Id { get; set; }
     public string Name { get; set; }
