@@ -1,4 +1,5 @@
-﻿using Intro.Entities;
+﻿using Intro.DataAccess.Abstracts;
+using Intro.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Intro.DataAccess.Concretes
 {
-    public class CourseDal
+    public class CourseDal : ICourseDal
     {
         List<Course> courses;
         public CourseDal()
